@@ -1,0 +1,116 @@
+﻿* {
+	margin:0;
+	padding:0;
+}
+
+html, body {
+	height:100%;
+	width:100%;
+	position:relative;
+	z-index:0;
+}	
+
+body {
+	background:url('education/worldwar2/images/splash-ww2-logo.jpg') #0d6992 0px 40px no-repeat;
+	font-size:100%;
+}
+
+h1, h2 {
+	font-size:1.3em;
+	margin-bottom:0.6em	;
+}
+
+a img {
+	border:0px solid white;
+}
+
+p {
+	font-size:0.8em;
+	line-height:1.3em;
+	margin-bottom:1.2em;
+}
+
+.title {
+	font-weight:700;
+	font-size:1em;
+	margin-bottom:0.4em;
+}
+
+#wrapper {
+	margin-top:0px;
+	min-width:900px!important;
+	width:100%;
+	position:absolute;
+	height:100%;
+	z-index:-2;
+}
+
+#ww2-div {
+	float:left;
+	position:relative;
+	background:none;
+	width:50%;
+	height:auto;
+	min-width:448px;
+}
+
+#ww2-text {
+	margin-left:150px;
+	margin-right:2.5em;
+	margin-top:43px;
+	max-width:478px;
+	text-align:right;
+	color:#FFF;
+	font-family:Helvetica,Arial,Sans-serif;
+	float:right;
+}
+
+#ww2-img {
+	margin-bottom:0.8em;
+}
+
+#ww2-img img {
+	border:1px solid #fff;
+}
+
+#survey-button {
+	margin-top:0em;
+	margin-left:2.5em;
+}
+
+#ww2-button {
+	clear:both;
+	margin-right:2.5em;
+	margin-top:0em;
+	float:right;
+}
+
+#survey-img {
+	margin-bottom:1em;
+}
+
+#survey-div {
+	float:right;
+	position:relative;
+	right:0px;
+	background-color:#FFFFFF;
+	width:50%;
+	min-width:430px;
+	min-height:100%;
+	height:auto;
+	z-index:-1;
+	font-family:Helvetica,Arial,Sans-serif;
+}
+
+#survey-text {
+	margin-left:2.5em;
+	margin-right:2.5em;
+	margin-top:43px;
+	font-family:Helvetica,Arial,Sans-serif;
+	max-width:578px;
+	min-height:20em;
+}
+
+.survey-posters {
+	width:100%;
+}

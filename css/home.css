@@ -1,0 +1,107 @@
+#sub-header {
+	background: url("/education/worldwar2/images/tabs/home-tab-folder-top.gif") top center no-repeat;
+}
+/* Home Container */
+#home-container{margin-left:auto;margin-right:auto;width:790px;}
+#home-container div.minHeight 
+{
+	width:1px;
+	height:400px;
+	float:left;
+}
+/* Home Container - Left folder and text */
+#home-container #left {
+	width:411px;
+	height:486px;
+	float:left;
+	background:url("/education/worldwar2/images/tabs/home-tab-folder-footer.gif") no-repeat 1px 7px;
+}
+#home-container #left #home-content
+{
+	width:411px;
+	padding-left:75px;
+	w\idth:336px;
+	padding-top:184px;
+	position:relative;
+}
+#home-container #left #home-content #chamberlainExtract
+{
+	position:absolute;
+	top:0;
+	left:0;
+}
+#home-container #left #home-content.smaller
+{
+	font-size:0.9em;
+}
+#home-container #left #home-content p
+{
+	padding:0;
+	margin:0;
+	padding-right:17px;	
+}
+img.home-extract{margin-top:35px;margin-left:16px;}
+img.photo{float:right;}
+a img.ior{margin-top:10px;}
+
+/* Home Container - Right radar and flash alt text */
+#home-container #right {padding:0;margin:0;width:379px;float:left;}
+.greenflash{
+	color:#00FF00;
+	font-weight:bold;
+	font-size:1em;
+	width:270px;
+	text-align:center;
+	padding-top:215px;
+	margin-left:auto;margin-right:auto;
+}
+/* Home Container - Flash */
+#home-container #right #flashcontent {
+	padding:0;
+	margin:0;
+	width:359px;
+	margin-left:auto;margin-right:auto;
+	margin-top:8px;	
+}
+#home-container #right #flashcontent #flashcontent-alt {
+	padding:0;
+	margin:0;
+	height:456px;
+	background:url("/education/worldwar2/images/flash-alt/home-radar.gif") 0px 0px no-repeat;
+}
+
+/* Quick links */
+#home-container #quickLinks
+{
+	background:url("/education/worldwar2/images/quick-links.gif") 30px 0px no-repeat;
+	height:125px;
+}
+#home-container #quickLinks ul
+{
+	list-style:none;
+	padding:0;
+	margin:0;
+	font-size:0.8em;
+	padding-top:50px;
+	margin-left:230px;
+	height:80px;	
+}
+#home-container #quickLinks ul li
+{
+	float:left;
+	padding-right:11px;
+	padding-left:20px;
+	margin-top:2px;
+	height:30px;
+	width:55px;
+}
+#home-container #quickLinks ul li a
+{text-transform: uppercase;}
+#home-container #quickLinks ul li.oneline
+{
+	padding-top:8px;
+	text-align:center;
+}
+
+
+

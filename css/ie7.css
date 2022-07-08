@@ -1,0 +1,26 @@
+#pageContentContainer
+{	
+	width:765px; 
+}
+#pageContentContainer #pageContent
+{
+	margin-right:50px;
+	width:510px;
+
+}
+#pageContentContainer #pageContent.wide.nopaper{margin:0;padding:0;width:710px;margin-right:10px;margin-top:20px;}
+
+
+/* Map flash content */
+#pageContentContainer #flashcontent.map{
+	width:725px;
+	xheight:426px;
+	float:right;
+	margin-right:10px;
+}
+#pageContentContainer #flashcontent.map-investigation{
+	width:725px;
+	height:390px;
+	float:right;
+	margin-right:10px;
+}

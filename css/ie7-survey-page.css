@@ -1,0 +1,24 @@
+#wrapper {
+	z-index:1;
+}
+
+#survey-img {
+	margin-top:0px;
+}
+
+#survey-div {
+	width:49%;
+}
+
+#ww2-div {
+	width:50%;
+}
+
+#survey-text {
+	height:28.3em;
+	margin-bottom:100px;
+}
+
+#ww2-text {
+	height:0em;
+}

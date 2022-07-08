@@ -1,0 +1,42 @@
+﻿#shadow.tabs{
+	clear:both;
+	background:url("/education/worldwar2/images/tabs/source-box-closed-top.gif") no-repeat top center;
+	width:100%;
+	height:35px;
+}
+
+/* Tab backgrounds */
+#container-2{background:url("/education/worldwar2/images/tabs/source-box-closed-body.gif") no-repeat top center;}
+#container-2 div.minHeight{height:489px;}
+#container-3{background:none;width:740px;margin-left:auto;margin-right:auto;}
+
+#pageContentContainer
+{
+	width:760px;
+}
+
+
+#left{width:360px;float:left;margin-right:50px;}
+
+#right{width:280px;float:left; position:relative;}
+#right img{margin-top:102px;margin-left:15px;}
+#right #label{
+	margin-top:20px;
+	background-color:#FFFFFF;
+	padding:5px 15px 5px 15px;
+	font-size:0.95em;
+}
+#right a, #left a{color:#1966B1;}
+
+#sourceboxlink {position:absolute; top:0; right:-20px; width:100px; height:100px; background:transparent; display:block;}
+
+/* Page content */
+#pageContent{width:280px;margin-left:40px;padding:0 15px 0 15px;}
+#pageContent h2{padding:0;margin:0;text-align:center;font-size:1.2em;margin-top:20px;}
+#pageButtons{width:310px;margin-left:40px;text-align:center;}
+#pageButtons a{margin-bottom:3px;}
+#pageButtons a.open{margin-right:5px;}
+#pageContent.smallerText p,
+#pageContent.smallerText ul li {font-size:0.75em;}
+#pageContent.smallerText h2{padding:0;margin:0;margin-top:12px;}
+#pageContent.smallerText ul{list-style:none;margin:0;padding:0;}

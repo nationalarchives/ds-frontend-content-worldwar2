@@ -1,0 +1,173 @@
+﻿/* Nav containers */
+#nav
+{
+	float:left;
+	width:200px;
+}
+#nav a{	color:#000000;}
+#nav #nav-top
+{
+	background:url("/education/worldwar2/images/nav-top.gif") no-repeat top left;	
+}
+#nav #nav-bottom
+{
+	background:url("/education/worldwar2/images/nav-bottom.gif") no-repeat bottom left;
+}
+#nav #nav-inner
+{
+	padding-bottom:20px;
+	width:190px;	
+}
+/* Nav areas */
+#nav div.minHeight {width:1px;height:250px;float:left;}
+#nav a.nav-buttons
+{
+	margin-left:10px;
+	color:#000000;	
+}
+#nav h2, #nav h3
+{
+	padding:0;
+	margin:0;
+	text-align:center;
+	text-decoration:underline;
+	padding-top:10px;
+	margin-bottom:10px;
+	font-size:1.1em;
+	text-transform: uppercase;
+}
+/* Level 1 */
+#nav ul.outer
+{
+	padding:0;
+	margin:0;
+	margin-left:10px;
+	margin-bottom:15px;
+	list-style:none;
+	border-top:2px solid #D4AE77;
+	width:175px;
+}
+#nav ul.outer li 
+{
+	width:175px;
+	border-bottom:2px solid #D4AE77;	
+}
+#nav ul.outer li div
+{
+	width:175px;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+#nav ul.outer li.parent div {border-bottom:2px solid #D4AE77;}
+#nav ul.outer li.parent div a, #nav ul.outer li div a{padding-left:35px;}
+
+/* Level 2 */
+#nav ul.outer li ul.inner
+{
+	padding:0;
+	margin:0;
+	margin-left:35px;
+	list-style:none;
+	width:135px;
+}
+#nav ul.outer li ul.inner li
+{
+	padding:0;
+	margin:0;
+	width:135px;
+	padding:5px 5px 5px 0;	
+}
+#nav ul.outer li ul.inner li a
+{
+	font-size:0.9em;
+}
+#nav ul.outer li.parent
+{
+	border-bottom:none;
+	padding-bottom:3px;
+}
+#nav ul.outer li.current
+{
+	font-weight:bold;
+}
+/* Images for nav */
+.docs_nav{background:url("/education/worldwar2/images/icons/docs_nav.gif") no-repeat left top;}
+.photos_nav{background:url("/education/worldwar2/images/icons/photo_nav.gif") no-repeat left top;}
+.video_nav{background:url("/education/worldwar2/images/icons/video_nav.gif") no-repeat left top;}
+.audio_nav{background:url("/education/worldwar2/images/icons/audio_nav.gif") no-repeat left top;}
+.artwork_nav{background:url("/education/worldwar2/images/icons/art_nav.gif") no-repeat left top;}
+.worksheets_nav{background:url("/education/worldwar2/images/icons/worksheets_nav.gif") no-repeat left top;}
+.switch_on{background:url("/education/worldwar2/images/icons/switch_on.gif") no-repeat left top;}
+.switch_off{background:url("/education/worldwar2/images/icons/switch_off.gif") no-repeat left top;}
+
+/* Nav with no images */
+#nav ul.outer.noimages li div a {padding-left:10px;display:block;}
+#nav ul.outer.noimages{border-top:none;padding-top:5px;}
+#nav ul.outer.noimages div.selected{font-weight:bold;padding-left:10px;}
+
+
+
+
+
+/* New Nav using H3s & H4s */
+#nav .nav-links
+{
+	padding:0;
+	margin:0;
+	margin-left:10px;
+	margin-bottom:15px;
+	border-top:2px solid #D4AE77;
+	width:175px;
+}
+#nav h4
+{
+	margin:0;
+	padding:8px 0 8px 35px;
+	font-size:0.9em;
+	text-decoration:underline;
+	font-weight:normal;
+	border-bottom:2px solid #D4AE77;
+}
+
+h4.docs_nav{background:url("/education/worldwar2/images/icons/docs_nav.gif") 0 0 no-repeat;}
+h4.photos_nav{background:url("/education/worldwar2/images/icons/photo_nav.gif") 0 0 no-repeat;}
+h4.video_nav{background:url("/education/worldwar2/images/icons/video_nav.gif") 0 0 no-repeat;}
+h4.audio_nav{background:url("/education/worldwar2/images/icons/audio_nav.gif") 0 0 no-repeat;}
+h4.artwork_nav{background:url("/education/worldwar2/images/icons/art_nav.gif") 0 0 no-repeat;}
+h4.worksheets_nav{background:url("/education/worldwar2/images/icons/worksheets_nav.gif") 0 0 no-repeat;}
+h4.safe_nav{background:url("/education/worldwar2/images/icons/safe_nav.gif") 0 0 no-repeat;}
+
+#nav ul.inner
+{
+	list-style:none;
+	margin:0;
+	padding-left:35px;
+	margin-bottom:5px;
+	width:135px;
+}
+#nav ul.inner li
+{
+	border-bottom:2px solid #D4AE77;
+	padding:5px 5px 5px 0;
+}
+#nav ul.inner li.current
+{
+	font-weight:bold;
+}
+
+#nav h4.current
+{
+	color:#ab0f0f;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#nav ul.inner li a
+{
+	font-size:0.8em;
+}
+#nav #nav-inner p
+{
+	padding:0 0 10px 0;
+	margin:0;
+}

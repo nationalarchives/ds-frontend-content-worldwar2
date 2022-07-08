@@ -1,0 +1,38 @@
+body #breadcrumbdiv {
+	display:none;
+}
+html, body, table {font-size: 100%;}
+body {
+	font-family: Courier New, Courier, Arial, Mono;
+	font-size: 1em;		
+}
+#header,#footer,#nav,
+#home-container #right #flashcontent,
+#pageButtons,
+a img.ior,
+#shadow,#right #label,
+#flashaudio
+{display:none;}
+
+/* Text */
+h1{color:#FFFFFF;font-size:1.6em;text-transform: uppercase;}
+h2{color:#000000;font-size:1.3em;}
+h3{color:#000000;font-size:1.1em;}
+p{font-size:0.9em;color:#000000;}
+a{font-size:1em;color:#1966B1;}
+a img {border:none;}
+ul li, ol li{font-size:0.9em;padding:5px;}
+hr{padding:0;margin:0;width:100%;background:#BCAC8A;border:1px solid #BCAC8A;}
+.grey{color:#666666;}
+img.photo{float:right;}
+
+#more1, #more2,#more3, #more4, #more5, #more6, #more7
+{display:block;}
+a.morelink{display:none;}
+#pageContentContainer #pageContent #mainContent table.popUp th, #pageContentContainer #pageContent #mainContent table.popUp td
+{	
+	border-collapse:collapse;
+	padding:3px;
+	border:1px solid #000;
+	vertical-align:top;
+}

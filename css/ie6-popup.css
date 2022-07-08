@@ -1,0 +1,18 @@
+﻿#header #header-content{width:580px;}
+#shadow.tabs #tab-2{xfloat:right;xmargin-top:30px; xmargin-right:15px; width:140px;}
+
+/*#shadow.tabs #tab-1{margin-top:23px;}
+#shadow.tabs #tab-2{margin-top:30px;}
+#shadow.tabs #tab-2.print{margin-right:14px;}*/
+
+#pageContentContainer{margin:0;padding:0;width:580px;float:left;}
+#pageContentContainer #pageContent
+{
+	padding:0;
+	margin:0;
+	float:right;
+	width:580px;
+	padding-bottom:80px;
+}
+#pageContentContainer #pageContent #mainHeader , #pageContentContainer #pageContent #subHeader{margin-left:20px;}
+#pageContentContainer #pageContent #mainContent{margin-left:20px;}

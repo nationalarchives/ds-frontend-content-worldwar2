@@ -1,0 +1,39 @@
+/* Two tabs */
+#shadow.tabs{
+	clear:both;
+	background:url("/education/worldwar2/images/tabs/tab-folder-top-lg.gif") no-repeat top center;
+	width:100%;
+	height:52px;
+}
+
+#shadow.tabs #tab-1{float:right;margin-top:13px;}
+#shadow.tabs #tab-2{float:right;margin-top:20px;}
+#shadow.tabs #tab-2.print{margin-left:25px;margin-right:15px;}
+
+/* Default wide tab backgrounds */
+#container-2{background: url("/education/worldwar2/images/tabs/tab-folder-bg-lg.gif") repeat-y top center;}
+#container-3{background:none;}
+#container-4{background:url("/education/worldwar2/images/tabs/tab-folder-footer-lg.gif") no-repeat bottom center;}
+
+
+/* Page content */
+#pageContentContainer #pageContent{width:715px;margin-right:15px;}
+#pageContentContainer #pageContent h2{padding:0;margin:0;text-align:left;font-size:1.2em;margin-top:10px;}
+#pageContentContainer #pageContent #mainHeader{float:left;width:700px;}
+#footer
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:600px;
+}
+#footer #footer-content
+{
+	width:600px;
+	text-align:center;
+	padding-bottom:20px;
+}
+#footer #footer-content a
+{
+	font-size:0.8em;
+	color:#000000;
+}

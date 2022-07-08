@@ -1,0 +1,33 @@
+#shadow.tabs{
+	clear:both;
+	background:url("/education/worldwar2/images/tabs/source-box-open-top.gif") no-repeat top center;
+	width:100%;
+	height:19px;
+}
+
+/* Tab backgrounds */
+#container-2{background:url("/education/worldwar2/images/tabs/source-box-open-body.gif") no-repeat top center;}
+#container-2 div.minHeight{height:410px;}
+#container-3{background:none;}
+#container-4{background:none;}
+#pageContentContainer
+{	
+	width:740px;
+}
+#pageContentContainer #sources
+{
+	float:right;
+	padding:0;
+	margin:0;
+	margin-right:5px;
+	margin-top:10px;
+}
+/* Slightly different bg for nav */
+#nav #nav-top
+{
+	background:url("/education/worldwar2/images/nav-top-green.gif") no-repeat top left;	
+}
+#nav #nav-bottom
+{
+	background:url("/education/worldwar2/images/nav-bottom-green.gif") no-repeat bottom left;
+}

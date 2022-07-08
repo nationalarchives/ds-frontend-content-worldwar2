@@ -1,0 +1,219 @@
+﻿/* Two tabs */
+#shadow.tabs{
+	clear:both;
+	background:url("/education/worldwar2/images/tabs/tab-folder-top-lg.gif") no-repeat top center;
+	width:100%;
+	height:52px;
+}
+
+/*#shadow.tabs #tab-1{float:right;margin-top:13px;}*/
+/*#shadow.tabs #tab-2{float:right;margin-left:30px;margin-right:28px;margin-top:20px;}*/
+#shadow.tabs #tab-2.previous{margin-left:80px;}
+#shadow.tabs #tab-2.previousEnlarge{margin-right:25px;}
+
+/* New added for enlarge pages */
+/*#shadow.tabs.enlarge #tab-1{float:right;margin-right:10px;margin-top:10px;width:154px;text-align:center;}
+#shadow.tabs.enlarge #tab-2{float:right;width:150px;text-align:center;margin-right:10px;margin-top:20px;}*/
+
+/* Four tabs */
+#shadow.tabs.four{
+
+	clear:both;
+	background:url("/education/worldwar2/images/tabs/tab-folder-top-four-tabs.gif") no-repeat top center;
+	width:100%;
+	height:41px;
+}
+#shadow.tabs.four #text
+{
+	width:760px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:14px;
+	position:relative;			
+}
+#shadow.tabs.four #tab-4
+{
+	position:absolute;
+	margin:0;
+	padding:0;
+	float:left;
+	list-style:none;
+}
+#shadow.tabs.four #tab-3
+{
+	position:absolute;
+	margin:0;
+	padding:0;
+	float:left;
+	list-style:none;
+}
+#shadow.tabs.four #tab-2
+{
+	position:absolute;
+	margin:0;
+	padding:0;
+	float:left;
+	list-style:none;
+}
+#shadow.tabs.four #tab-1
+{
+	position:absolute;
+	margin:0;
+	padding:0;
+	float:left;
+	list-style:none;
+}
+/*#shadow.tabs.four #tab-1{}
+#shadow.tabs.four #tab-2{margin-right:95px;}
+#shadow.tabs.four #tab-3{margin-right:60px;}
+#shadow.tabs.four #tab-4{margin-left:65px;margin-right:75px;}*/
+
+#shadow.tabs.four #tab-1{left:590px;top:20px;}
+#shadow.tabs.four #tab-2{left:365px;top:0; width:179px; height:41px; background: url("/education/worldwar2/images/tabs/tab-two.gif") no-repeat top left;}
+#shadow.tabs.four #tab-3{left:188px;top:0; width:179px; height:41px; background: url("/education/worldwar2/images/tabs/tab-three.gif") no-repeat top left;}
+#shadow.tabs.four #tab-4{left:0; top:0; width:179px; height:41px;} /* Does not have a bg because there is always at least one tab */
+
+#shadow.tabs.four li { text-align:center;}
+
+#shadow.tabs.four li span { margin-top:15px; display:block;}
+
+#shadow.tabs.four li a { margin-top:15px; display:block;}
+
+#shadow.tabs.four .current{font-weight:bold;}
+
+/* Default wide tab backgrounds */
+#container-2{background: url("/education/worldwar2/images/tabs/tab-folder-bg-lg.gif") repeat-y top center;}
+#container-3{background:none;}
+#container-4{background:url("/education/worldwar2/images/tabs/tab-folder-footer-lg.gif") no-repeat bottom center;}
+
+/* Map backgrounds */
+#container-2.map{background: url("/education/worldwar2/images/tabs/tab-folder-bg-four-tabs.gif") repeat-y top center;}
+#container-4.map{background:url("/education/worldwar2/images/tabs/tab-folder-footer-four-tabs.gif") no-repeat bottom center;}
+#container-4.map div.minHeight{height:440px;}
+/* Map flash content */
+#pageContentContainer
+{
+	position:relative;
+	width:760px;
+}
+
+#pageContentContainer #clearspace
+{
+	height:100px;
+	width:1px;	
+}
+
+
+#pageContentContainer #mapIntro{
+	float:left;
+	margin-left:20px;
+	margin-top:3px;
+}
+
+
+#pageContentContainer #flashcontent.map{
+	width:725px;
+	float:right;
+	
+	margin-right:20px;
+	
+	margin-right:10px;
+	margin-top:3px;
+	overflow:hidden;
+}
+
+#pageContentContainer #mapIntro h2{
+	padding:0 10px;
+	margin:10px 0;
+}
+
+#pageContentContainer #mapIntro p{
+	padding:0 10px;
+	margin:10px 0;
+}
+
+#pageContentContainer #flashcontent.map p{
+	padding-left:30px;
+	padding-top:10px;
+	padding-left:30px;	
+}
+#pageContentContainer #flashcontent.map.investigation{
+	border:3px solid #BCAC8A;
+	width:725px;
+	height:390px;
+	float:right;
+	margin-top:3px;
+	margin-bottom:18px;
+	position:relative;
+
+}
+#pageContentContainer #flashcontent.map-investigation p{
+	padding-left:30px;
+	padding-top:10px;
+	padding-left:30px;
+}
+
+#pageContentContainer #altLinks
+{
+	text-align:right;
+	padding-right:20px;
+	margin-top:0px;
+	padding-bottom:20px;
+	position:relative;
+}
+#pageContentContainer #altLinks a
+{
+	text-transform:uppercase;
+	font-size:0.9em;
+	color:#000000;
+}
+
+#pageContentContainer #altPins
+{
+	position:absolute;
+	bottom:100px;
+	left:0;
+}
+
+
+#pageContentContainer #altPins ul
+{
+	clear:both;
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:720px;
+	margin-left:43px;
+	height:45px;
+}
+#pageContentContainer #altPins ul li
+{
+	background:url("/education/worldwar2/images/pin.gif") no-repeat top left;
+	
+	padding-left:20px;
+	height:30px;
+	float:left;
+	display:block;	
+	padding-right:8px;
+	margin-top:2px;
+}
+
+#pageContentContainer #altPins ul li.twolines
+{
+	width:75px;	
+}
+#pageContentContainer #altPins ul li.twolines.end
+{
+	width:50px;	
+}
+
+#pageContentContainer #altPins a
+{
+	text-transform:uppercase;
+	font-size:0.8em;
+	color:#000000;
+}
+
+/* Page content */
+#pageContentContainer #pageContent{width:715px;margin-right:15px;}
+#pageContentContainer #pageContent h2{padding:0;margin:0;text-align:left;font-size:1.2em;margin-top:10px;}

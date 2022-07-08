@@ -1,0 +1,34 @@
+#wrapper {
+	z-index:1;
+	width:1004px;
+}
+
+#ww2-div {
+	width:50%;
+}
+
+#ww2-text {
+	margin-right:2em;
+	float:none;
+	height:28.3em;
+}
+
+#ww2-button {
+	margin-right:1em
+}
+
+#survey-div {
+	width:49%;
+	height:100%;
+	top:0px;
+}
+
+#survey-text {
+	margin-left:2.2em;
+	margin-right:2.2em;
+	height:28.3em;
+}
+
+#survey-button {
+	margin-left:2em;
+}
